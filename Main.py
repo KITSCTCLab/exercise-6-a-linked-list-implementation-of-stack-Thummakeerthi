@@ -1,5 +1,5 @@
 class Node:
-  def _init_(self, data):
+  def __init__(self, data):
     self.data = data
     self.next = None
 
@@ -25,7 +25,7 @@ class Stack:
         temp = temp.next
       print(temp.data, end = "=>")
       
-    print("None")
+    print"None"
 
 # Do not change the following code
 stack = Stack()
